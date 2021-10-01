@@ -1,11 +1,15 @@
 # Ludum Dare 49
 ## Pigeon Game Studios
 
-This is our entry for [Ludum Dare 49](https://ldjam.com/events/ludum-dare/49/$258334/welcome-to-ludum-dare-49) (Latin: *to give a game*) the oldest and longest-running game jam on the internet — counting 19 years and going! We're participating as a team in the Jam event, with 72 hours from to make a game based on a given theme. Ludum Dare 49 kicks off on Saturday 2 October 8am (Sydney time). 
+This is our entry for [Ludum Dare 49](https://ldjam.com/events/ludum-dare/49/$258334/welcome-to-ludum-dare-49) (Latin: *to give a game*), the oldest and longest-running game jam on the Internet — counting 19 years and going! We're participating as a team in the Jam event, with 72 hours from to make a game based on a given theme. Ludum Dare 49 kicks off on Saturday 2 October 8am (Sydney time). 
 
 Ludum Dare was the seed to some of our favourite games like [Titan Souls](https://store.steampowered.com/app/297130/Titan_Souls/), [Hollow Knight](https://store.steampowered.com/app/367520/Hollow_Knight/) and [Mini Metro](https://store.steampowered.com/app/287980/Mini_Metro/), with past participation from our favourite game creators like [Notch](https://www.pcgamer.com/au/notch-makes-minicraft-in-48-hours-for-ludum-dare/). You can learn more about Ludum Dare on their [website](https://ldjam.com/).
 
 This is our first game jam, and for many of our team members, their first experience with helping develop computer software. Your critical and honest feedback is very welcome on our [Ludum Dare page](https://ldjam.com/events/ludum-dare/49/$259308). 
+
+### Contributing
+
+Team members --> https://gist.github.com/aidswidjaja/8adeb33badb0f4f790f9b36bcd5a752f
 
 ### Stack
 
