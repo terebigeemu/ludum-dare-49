@@ -38,6 +38,8 @@ In alphabetical order by username:
 - [the-pidge](https://github.com/the-pidge)
 - [TJ-Bearytales](https://github.com/TJ-Bearytales)
 - [ToboldH](https://github.com/ToboldH)
+Acknowledgements:
+Beater: Jayden
 
 ### License
 
@@ -58,5 +60,3 @@ In the spirit of the competition, we've licensed our source code under the [GNU 
     You should have received a copy of the GNU General Public License
     along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
-Acknowledgements:
-Beater: Jayden
