@@ -40,7 +40,7 @@ In alphabetical order by username:
 - [ToboldH](https://github.com/ToboldH)
 
 #### Acknowledgements
-- Jayden (Beader)
+- Jayden (Beater)
 
 ### License
 
