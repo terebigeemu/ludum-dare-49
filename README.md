@@ -37,7 +37,7 @@ In alphabetical order by username:
 
 ### License
 
-In the spirit of the competition, we've licensed our source code under the [GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-3.0.en.html) (see LICENSE) and our assets under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/), except where otherwise stated.
+In the spirit of the competition, we've licensed our source code under the [GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-3.0.en.html) (see [LICENSE](https://github.com/terebigeemu/ludum-dare-49/blob/main/LICENSE)) and our assets under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) (see [Raw/LICENSE](https://github.com/terebigeemu/ludum-dare-49/blob/main/Raw/LICENSE)), except where otherwise stated.
 
 	Copyright (c) Pigeon Game Studios 2021
 
