@@ -9,7 +9,8 @@ This is our first game jam, and for many of our team members, their first experi
 
 ### Contributing
 
-Team members --> https://gist.github.com/aidswidjaja/8adeb33badb0f4f790f9b36bcd5a752f
+- Script kiddies: https://gist.github.com/aidswidjaja/8adeb33badb0f4f790f9b36bcd5a752f
+- Assets: https://github.com/terebigeemu/ludum-dare-49/tree/main/Raw
 
 ### Stack
 
