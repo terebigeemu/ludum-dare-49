@@ -57,3 +57,6 @@ In the spirit of the competition, we've licensed our source code under the [GNU 
 
     You should have received a copy of the GNU General Public License
     along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+Acknowledgements:
+Beater: Jayden
