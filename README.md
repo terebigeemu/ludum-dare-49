@@ -38,8 +38,9 @@ In alphabetical order by username:
 - [the-pidge](https://github.com/the-pidge)
 - [TJ-Bearytales](https://github.com/TJ-Bearytales)
 - [ToboldH](https://github.com/ToboldH)
-Acknowledgements:
-Beater: Jayden
+
+#### Acknowledgements
+- Jayden (Beader)
 
 ### License
 
