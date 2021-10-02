@@ -1,3 +1,6 @@
+// open animation
+// @author: aidswidjaja
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
