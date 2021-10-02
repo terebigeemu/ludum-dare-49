@@ -16,6 +16,7 @@ public class Init : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        SceneManager.LoadScene(sceneName: "Put the name of the scene here");
+
+
     }
 }
