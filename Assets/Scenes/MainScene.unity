@@ -201,7 +201,7 @@ GameObject:
   - component: {fileID: 133287608}
   - component: {fileID: 133287607}
   m_Layer: 0
-  m_Name: SceneTransition
+  m_Name: SceneTransitionClose
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -268,7 +268,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 0, g: 0, b: 0, a: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -303,7 +303,7 @@ GameObject:
   - component: {fileID: 384864137}
   - component: {fileID: 384864136}
   m_Layer: 0
-  m_Name: SceneTransitionHandler
+  m_Name: SceneTransitionCloseHandler
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -318,10 +318,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 384864135}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7dfb2a10026e6449a87efa5a667372b7, type: 3}
+  m_Script: {fileID: 11500000, guid: 718c9569d1d074c76b4a3f00d974a1df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  crossfadeAnimControl: {fileID: 133287607}
+  crossfadeAnimControlClose: {fileID: 133287607}
 --- !u!4 &384864137
 Transform:
   m_ObjectHideFlags: 0

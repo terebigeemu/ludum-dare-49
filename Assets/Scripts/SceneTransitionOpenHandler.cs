@@ -2,22 +2,19 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class LoadingPigeon : MonoBehaviour
+public class SceneTransitionOpenHandler : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
     {
-
+        
     }
+
+    public Animator crossfadeAnimControlOpen;
 
     // Update is called once per frame
     void Update()
     {
-        // LoadingPigeon
-
-        float speed = 5.0f;
-
-        transform.Translate(Vector2.right * speed * Time.deltaTime);
-        Destroy(gameObject, 5f);
+        crossfadeAnimControlOpen.SetTrigger("start_open_animation");
     }
 }
