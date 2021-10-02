@@ -69,3 +69,6 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+
+# added by Adrian for target (see https://stackoverflow.com/a/59746059/6299634)
+!/[Ll]ibrary/*.asset
