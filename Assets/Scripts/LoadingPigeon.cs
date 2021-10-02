@@ -19,10 +19,12 @@ public class LoadingPigeon : MonoBehaviour
         // LoadingPigeon
 
         //while (movement == true) {
-            float speed = 8.0f;
+            float speed = 5.0f;
 
             transform.Translate(Vector2.right * speed * Time.deltaTime);
         //}
+        Destroy(gameObject,5f);
 
-    }
+   
+            }
 }
