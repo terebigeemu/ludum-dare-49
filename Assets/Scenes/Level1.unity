@@ -447,7 +447,7 @@ GameObject:
   - component: {fileID: 1020672390}
   - component: {fileID: 1020672389}
   m_Layer: 0
-  m_Name: Square
+  m_Name: HorizontalScaffold
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -513,7 +513,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1020672388}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 36.5, y: 2.6, z: 1}
+  m_LocalPosition: {x: 36.5, y: 2.6, z: 10}
   m_LocalScale: {x: 88.005936, y: 15.53557, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -530,7 +530,7 @@ GameObject:
   - component: {fileID: 1397303033}
   - component: {fileID: 1397303032}
   m_Layer: 0
-  m_Name: Square (1)
+  m_Name: VerticalScaffold
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -578,7 +578,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0, g: 1, b: 0.11850643, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -596,7 +596,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1397303031}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 73.2, y: 19.5, z: 0}
+  m_LocalPosition: {x: 73.2, y: 19.5, z: -10}
   m_LocalScale: {x: 15, y: 50, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
