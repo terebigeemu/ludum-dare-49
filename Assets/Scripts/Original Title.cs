@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlaceholderStartHint : MonoBehaviour
+public class OriginalTitle : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
@@ -13,6 +13,6 @@ public class PlaceholderStartHint : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Destroy(gameObject, 5f);
+        Destroy(gameObject,5f); 
     }
 }
