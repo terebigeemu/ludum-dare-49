@@ -1,0 +1,28 @@
+﻿<Properties StartupConfiguration="{862E803A-C3BB-9DE9-9117-ECA068C9C46D}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/LoadingPigeon.cs">
+    <Files>
+      <File FileName="Assets/Scripts/GameLoad.cs" Line="13" Column="1" />
+      <File FileName="Assets/Scripts/LoadingPigeon.cs" Line="12" Column="74" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ld49" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Scripts" expanded="True">
+                <Node name="LoadingPigeon.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="2c33f203-317f-4e0b-b38a-9e178e885c20" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
