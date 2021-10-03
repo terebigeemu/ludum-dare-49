@@ -909,7 +909,6 @@ Transform:
   m_Father: {fileID: 1803548195}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-<<<<<<< HEAD
 --- !u!114 &648433473
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1068,8 +1067,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-=======
->>>>>>> 845623230e99d0ce17bbb8f0c6bb82a25473739c
 --- !u!1 &972231845
 GameObject:
   m_ObjectHideFlags: 0
@@ -1262,23 +1259,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1397303031
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1397303033}
-  - component: {fileID: 1397303032}
-  m_Layer: 0
-  m_Name: VerticalScaffold
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
 --- !u!212 &1397303032
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1331,20 +1311,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!4 &1397303033
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1397303031}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 73.2, y: 19.5, z: -10}
-  m_LocalScale: {x: 15, y: 50, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1529639104
 GameObject:
   m_ObjectHideFlags: 0
@@ -1353,7 +1319,6 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-<<<<<<< HEAD
   - component: {fileID: 1370412000}
   - component: {fileID: 1370412001}
   - component: {fileID: 1370412002}
@@ -1361,12 +1326,6 @@ GameObject:
   - component: {fileID: 1370412003}
   - component: {fileID: 1370412006}
   - component: {fileID: 1370412004}
-=======
-  - component: {fileID: 1529639108}
-  - component: {fileID: 1529639107}
-  - component: {fileID: 1529639106}
-  - component: {fileID: 1529639105}
->>>>>>> 845623230e99d0ce17bbb8f0c6bb82a25473739c
   m_Layer: 0
   m_Name: GroundScaffold (2)
   m_TagString: Untagged
@@ -1591,7 +1550,6 @@ MonoBehaviour:
   first_jump_done: 0
   second_jump_done: 0
   jump_cooldown: 1
-<<<<<<< HEAD
   healthBar: {fileID: 0}
 --- !u!114 &1370412004
 MonoBehaviour:
@@ -1606,10 +1564,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!61 &1370412005
-=======
   is_facing_left: 0
 --- !u!61 &1803548197
->>>>>>> 845623230e99d0ce17bbb8f0c6bb82a25473739c
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1635,19 +1591,15 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 3.883793, y: 4.52}
   m_EdgeRadius: 0
-<<<<<<< HEAD
 --- !u!114 &1370412006
 MonoBehaviour:
-=======
 --- !u!50 &1803548198
 Rigidbody2D:
   serializedVersion: 4
->>>>>>> 845623230e99d0ce17bbb8f0c6bb82a25473739c
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD
   m_GameObject: {fileID: 1370411999}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -1655,7 +1607,6 @@ Rigidbody2D:
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1397303031
-=======
   m_GameObject: {fileID: 1803548192}
   m_BodyType: 0
   m_Simulated: 1
@@ -1671,7 +1622,6 @@ Rigidbody2D:
   m_CollisionDetection: 0
   m_Constraints: 4
 --- !u!1 &1857720324
->>>>>>> 845623230e99d0ce17bbb8f0c6bb82a25473739c
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1769,7 +1719,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
-<<<<<<< HEAD
 --- !u!4 &1397303033
 Transform:
   m_ObjectHideFlags: 0
@@ -1887,5 +1836,3 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
-=======
->>>>>>> 845623230e99d0ce17bbb8f0c6bb82a25473739c

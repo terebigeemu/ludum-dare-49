@@ -28,8 +28,6 @@ public class Player : MonoBehaviour
     void Update()
     {
 
-
-
         //Movement
         float xinput = Input.GetAxis("Horizontal");
         Vector2 dx = new Vector2(speed * xinput, 0);
@@ -50,11 +48,6 @@ public class Player : MonoBehaviour
             print("second jump");
         }
 
-<<<<<<< HEAD
-        transform.Translate(movement);
-
-
-=======
         if ((Input.GetKeyDown("a")) || Input.GetKeyDown("left"))
         {
             is_facing_left = true;
@@ -72,7 +65,6 @@ public class Player : MonoBehaviour
         {
             gameObject.GetComponent<SpriteRenderer>().flipX = false;
         }
->>>>>>> 845623230e99d0ce17bbb8f0c6bb82a25473739c
 
     }
 
