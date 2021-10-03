@@ -14,10 +14,16 @@ public class Init : MonoBehaviour
 
     }
 
-    // Update is called once per frame
+    public AudioSource Audio;
+
     void Update()
     {
-        // for scene changes see SceneTransitionCloseHandler
+        // for scene transitions see SceneTransitionCloseHandler
 
+        if (Input.GetKeyDown("space"))
+        {
+            StartCoroutine(AudioFadeOut.FadeOut(Audio, 10f));
+        }
     }
+
 }
