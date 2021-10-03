@@ -3,7 +3,7 @@
 
 using UnityEngine;
 using System.Collections;
-public class SlideBackFore : MonoBehaviour
+public class MovingPlatform : MonoBehaviour
 {
     public Transform farEnd;
     private Vector3 frometh;
