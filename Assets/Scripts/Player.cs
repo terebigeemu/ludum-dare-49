@@ -38,14 +38,12 @@ public class Player : MonoBehaviour
         {
             gameObject.GetComponent<Rigidbody2D>().AddForce(new Vector2(0f, jump_height), ForceMode2D.Impulse);
             first_jump_done = true;
-            print("first jump");
 
         }
         else if ((Input.GetKeyDown("w") || Input.GetKeyDown("up")) && first_jump_done & !second_jump_done)
         {
             gameObject.GetComponent<Rigidbody2D>().AddForce(new Vector2(0f, jump_height), ForceMode2D.Impulse);
             second_jump_done = true;
-            print("second jump");
         }
 
         if ((Input.GetKeyDown("a")) || Input.GetKeyDown("left"))
