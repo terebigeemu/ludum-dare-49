@@ -25,6 +25,12 @@ public class SceneTransitionCloseHandler : MonoBehaviour
             StartCoroutine(Transition());
             Debug.Log("Keypress detected... moving to next scene...");
         }
+
+        if (Input.GetKeyDown("l") && Input.GetKeyDown("0"))
+        {
+            StartCoroutine(DebugTransition());
+            Debug.Log("Debug screen");
+        }
     }
 
     IEnumerator Transition()
@@ -32,5 +38,12 @@ public class SceneTransitionCloseHandler : MonoBehaviour
         crossfadeAnimControlClose.SetTrigger("start_close_animation");
         yield return new WaitForSeconds(0.75f);
         SceneManager.LoadScene("Level1");
+    }
+
+    IEnumerator DebugTransition()
+    {
+        crossfadeAnimControlClose.SetTrigger("start_close_animation");
+        yield return new WaitForSeconds(0.75f);
+        SceneManager.LoadScene("Level0");
     }
 }

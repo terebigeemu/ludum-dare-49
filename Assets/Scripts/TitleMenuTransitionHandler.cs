@@ -23,7 +23,7 @@ public class TitleMenuTransitionHandler : MonoBehaviour
 
     IEnumerator Wait()
     {
-        yield return new WaitForSeconds(5.25f);
+        yield return new WaitForSeconds(5.50f);
         titleMenuAnimControl.SetTrigger("start_fade_animation");
     }
 }
