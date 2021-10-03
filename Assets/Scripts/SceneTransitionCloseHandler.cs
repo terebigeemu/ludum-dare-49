@@ -23,13 +23,37 @@ public class SceneTransitionCloseHandler : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space))
         {
             StartCoroutine(Transition());
-            Debug.Log("Keypress detected... moving to next scene...");
         }
 
-        if (Input.GetKeyDown("l") && Input.GetKeyDown("0"))
+        // REMOVE CHEAT CODES IN FINAL GAME //
+        else if (Input.GetKeyDown("l") && Input.GetKeyDown("0"))
         {
             StartCoroutine(DebugTransition());
-            Debug.Log("Debug screen");
+        }
+
+        else if (Input.GetKeyDown("l") && Input.GetKeyDown("1"))
+        {
+            StartCoroutine(Level1());
+        }
+
+        else if (Input.GetKeyDown("l") && Input.GetKeyDown("2"))
+        {
+            StartCoroutine(Level2());
+        }
+
+        else if (Input.GetKeyDown("l") && Input.GetKeyDown("3"))
+        {
+            StartCoroutine(Level3());
+        }
+
+        else if (Input.GetKeyDown("l") && Input.GetKeyDown("4"))
+        {
+            StartCoroutine(Level3());
+        }
+
+        else if (Input.GetKeyDown("l") && Input.GetKeyDown("5"))
+        {
+            StartCoroutine(Level3());
         }
     }
 
@@ -46,4 +70,40 @@ public class SceneTransitionCloseHandler : MonoBehaviour
         yield return new WaitForSeconds(0.75f);
         SceneManager.LoadScene("Level0");
     }
+
+    IEnumerator Level1()
+    {
+        crossfadeAnimControlClose.SetTrigger("start_close_animation");
+        yield return new WaitForSeconds(0.75f);
+        SceneManager.LoadScene("Level1");
+    }
+
+    IEnumerator Level2()
+    {
+        crossfadeAnimControlClose.SetTrigger("start_close_animation");
+        yield return new WaitForSeconds(0.75f);
+        SceneManager.LoadScene("Level2");
+    }
+
+    IEnumerator Level3()
+    {
+        crossfadeAnimControlClose.SetTrigger("start_close_animation");
+        yield return new WaitForSeconds(0.75f);
+        SceneManager.LoadScene("Level3");
+    }
+
+    IEnumerator Level4()
+    {
+        crossfadeAnimControlClose.SetTrigger("start_close_animation");
+        yield return new WaitForSeconds(0.75f);
+        SceneManager.LoadScene("Level4");
+    }
+
+    IEnumerator Level5()
+    {
+        crossfadeAnimControlClose.SetTrigger("start_close_animation");
+        yield return new WaitForSeconds(0.75f);
+        SceneManager.LoadScene("Level5");
+    }
+
 }

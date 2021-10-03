@@ -1,6 +1,8 @@
 // SmoothFollow.cs is part of Unity 2018 LTS Standard Assets
 
-using UnityEngine;
+/*
+ * 
+ * using UnityEngine;
 using System.Collections;
 
 public class SmoothFollow : MonoBehaviour
@@ -73,3 +75,5 @@ public class SmoothFollow : MonoBehaviour
 	}
 
 }
+
+*/
