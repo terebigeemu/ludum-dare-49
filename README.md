@@ -26,6 +26,8 @@ Different team members might use different software, including the following:
 
 - [Krita](https://krita.org/)
 - [bfxr](https://www.bfxr.net/)
+- [Piskel](https://www.piskelapp.com/)
+- [Pixilart](https://www.pixilart.com/)
 - [Aseprite](https://www.aseprite.org/)
 
 ### Team members
