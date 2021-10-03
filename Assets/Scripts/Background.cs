@@ -20,6 +20,11 @@ public class Background : MonoBehaviour
     public float kdx = 2;
     public float kdy = 8;
 
+    // original position before delta
+
+    public float ox = 0;
+    public float oy = 950;
+
 	void Update()
     {
         // Find Player's position on the plane
@@ -33,7 +38,7 @@ public class Background : MonoBehaviour
 
         Vector3 deltaBackgroundPosition = new Vector3(deltaBackgroundX, deltaBackgroundY, 0);
 
-        transform.localPosition = new Vector3(0, 0, 3);
+        transform.localPosition = new Vector3(ox, oy, 1);
         // as Player x/y-axis approaches infinity
         //    BG     x/y-axis approaches negative infinity
 
