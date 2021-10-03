@@ -23,7 +23,7 @@ public class Background : MonoBehaviour
     // original position before delta
 
     public float ox = 0;
-    public float oy = 950;
+    public float oy = 0;
 
 	void Update()
     {
