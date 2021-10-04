@@ -1,4 +1,4 @@
-// teleport to Skyscraper2
+// teleport to Skyscraper1
 // frick iteration array zero-indexing things
 
 using System.Collections;
@@ -22,7 +22,7 @@ public class TeleportS1 : MonoBehaviour
         StartCoroutine(TitleAudioFader.FadeOut(BackgroundAudio, 2f));
         crossfadeAnimControlClose.SetTrigger("start_close_animation");
         yield return new WaitForSeconds(2f);
-        SceneManager.LoadScene("Skyscraper2");
+        SceneManager.LoadScene("Skyscraper1");
     }
 }
 
