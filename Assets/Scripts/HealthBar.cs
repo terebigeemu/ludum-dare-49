@@ -75,8 +75,8 @@ public class HealthBar : MonoBehaviour
 
     IEnumerator Death()
     {
-        StartCoroutine(TitleAudioFader.FadeOut(BackgroundAudio, 2f));
-        yield return new WaitForSeconds(2f);
+        StartCoroutine(TitleAudioFader.FadeOut(BackgroundAudio, 3f));
+        yield return new WaitForSeconds(3f);
         Scene scene = SceneManager.GetActiveScene();
         SceneManager.LoadScene(scene.name);
     }

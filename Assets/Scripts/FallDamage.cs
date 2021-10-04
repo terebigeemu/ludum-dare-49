@@ -20,6 +20,8 @@ public class FallDamage : MonoBehaviour
         GameObject go = GameObject.Find("Player");
         HealthBar hb = go.GetComponent<HealthBar>();
 
+        damage_sfx = GetComponent<AudioSource>();
+
         hb.health = 0;
         hb.health_cooldown = true;
 
