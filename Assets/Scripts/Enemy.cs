@@ -1,5 +1,5 @@
 // enemy takes 1 HP
-// ty https://answers.unity.com/questions/650983/how-to-get-variable-from-another-object.html
+// and https://docs.unity3d.com/ScriptReference/AudioSource.Play.html
 // @author: aidswidjaja
 
 using System.Collections;
@@ -9,18 +9,25 @@ using UnityEngine;
 public class Enemy : MonoBehaviour
 {
 
-    private bool health_cooldown = false;
+    AudioSource damage_sfx;
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
+
         GameObject go = GameObject.Find("Player");
-        HealthBar cs = go.GetComponent<HealthBar>();
-        int health = cs.health;
-        
+        HealthBar hb = go.GetComponent<HealthBar>();
+
+        bool health_cooldown = hb.health_cooldown;
+
+        damage_sfx = GetComponent<AudioSource>();
+
+        if (!health_cooldown)
+        {
+            damage_sfx.Play(0);
+            hb.health -= 1;
+            hb.health_cooldown = true;
+        }
+
     }
 
-    IEnumerator ReduceHealth()
-    {
-
-    }
 }

@@ -60,7 +60,7 @@ public class SceneTransitionCloseHandler : MonoBehaviour
     IEnumerator Transition()
     {
         crossfadeAnimControlClose.SetTrigger("start_close_animation");
-        yield return new WaitForSeconds(0.75f);
+        yield return new WaitForSeconds(2f);
         SceneManager.LoadScene("Level1");
     }
 

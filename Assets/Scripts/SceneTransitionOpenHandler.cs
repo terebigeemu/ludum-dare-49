@@ -1,4 +1,4 @@
-// open animation
+// open scene animation
 // @author: aidswidjaja
 
 using System.Collections;
@@ -7,17 +7,19 @@ using UnityEngine;
 
 public class SceneTransitionOpenHandler : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
     public Animator crossfadeAnimControlOpen;
 
-    // Update is called once per frame
-    void Update()
+    public bool loadingSceneOpen = true;
+
+    void Awake()
+    {
+        StartCoroutine(Transition());
+    }
+
+    IEnumerator Transition()
     {
         crossfadeAnimControlOpen.SetTrigger("start_open_animation");
+        yield return new WaitForSeconds(2f);
+        loadingSceneOpen = false;
     }
 }
