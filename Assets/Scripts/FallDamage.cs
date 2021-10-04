@@ -25,7 +25,6 @@ public class FallDamage : MonoBehaviour
         hb.health = 0;
         hb.health_cooldown = true;
 
-
     }
 
 }
