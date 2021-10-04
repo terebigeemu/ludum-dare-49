@@ -1,11 +1,11 @@
-// fade title screen audio out
+// title screen audio fade
+// https://forum.unity.com/threads/fade-out-audio-source.335031/
 
-using UnityEngine;
 using System.Collections;
+using UnityEngine;
 
-public static class AudioFadeOut
+public class TitleAudioFader : MonoBehaviour
 {
-
     public static IEnumerator FadeOut(AudioSource audioSource, float FadeTime)
     {
         float startVolume = audioSource.volume;
@@ -20,6 +20,4 @@ public static class AudioFadeOut
         audioSource.Stop();
         audioSource.volume = startVolume;
     }
-
 }
-

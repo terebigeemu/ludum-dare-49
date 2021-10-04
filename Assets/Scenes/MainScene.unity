@@ -268,7 +268,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 0, g: 0, b: 0, a: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -475,7 +475,7 @@ GameObject:
   - component: {fileID: 550520986}
   - component: {fileID: 550520985}
   m_Layer: 0
-  m_Name: Audio
+  m_Name: TitleAudio
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -490,7 +490,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 550520984}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7438c176c3cfe4838b0801a4c1cd26e2, type: 3}
+  m_Script: {fileID: 11500000, guid: da54d9d71be614d33b01f5bc3d407da7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!82 &550520986
@@ -1204,7 +1204,6 @@ GameObject:
   - component: {fileID: 2119500401}
   - component: {fileID: 2119500400}
   - component: {fileID: 2119500398}
-  - component: {fileID: 2119500397}
   - component: {fileID: 2119500396}
   m_Layer: 0
   m_Name: Initialiser
@@ -1225,22 +1224,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9f7b0f96b2d334c24993fa7798ebfe2d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Audio: {fileID: 550520986}
---- !u!114 &2119500397
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2119500395}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e741851cba3ad425c91ecf922cc6b379, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _data:
-    _json: '{"declarations":{"collection":{"$content":[],"$version":"A"},"$version":"A"}}'
-    _objectReferences: []
+  TitleAudio: {fileID: 550520986}
 --- !u!65 &2119500398
 BoxCollider:
   m_ObjectHideFlags: 0

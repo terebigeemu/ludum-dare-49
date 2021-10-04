@@ -8,7 +8,7 @@ public class MovingPlatform : MonoBehaviour
     public Transform farEnd;
     private Vector3 frometh;
     private Vector3 untoeth;
-    private float secondsForOneLength = 20f;
+    public float secondsForOneLength = 10f;
 
     void Start()
     {

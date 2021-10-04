@@ -14,7 +14,7 @@ public class Init : MonoBehaviour
 
     }
 
-    public AudioSource Audio;
+    public AudioSource TitleAudio;
 
     void Update()
     {
@@ -22,7 +22,7 @@ public class Init : MonoBehaviour
 
         if (Input.GetKeyDown("space"))
         {
-            StartCoroutine(AudioFadeOut.FadeOut(Audio, 10f));
+            StartCoroutine(TitleAudioFader.FadeOut(TitleAudio, 1f));
         }
     }
 
