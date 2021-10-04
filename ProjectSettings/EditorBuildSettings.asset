@@ -17,6 +17,18 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Buildings1.unity
     guid: 5053083c4e4cf4793a97ecbac904a3ca
+  - enabled: 1
+    path: Assets/Scenes/Skyscraper1.unity
+    guid: c89d91efdd50b49629480b46b1d165c6
+  - enabled: 1
+    path: Assets/Scenes/Level2.unity
+    guid: 4f209bd6e19664bfeb26c00bd0be191b
+  - enabled: 1
+    path: Assets/Scenes/Skyscraper2.unity
+    guid: 0b76c9251f1794580ba515ab7406f785
+  - enabled: 1
+    path: Assets/Scenes/Endscreen.unity
+    guid: 46f385831a58b4815a1ad88a6cb663c6
   m_configObjects:
     com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: 59f3e2290067c4e77ac39655cfbb1fb3, type: 2}
     com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000, guid: 8d737ed2e2faa4f1dbb6e259d393c804, type: 2}

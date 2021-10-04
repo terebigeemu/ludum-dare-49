@@ -26,6 +26,7 @@ public class SceneTransitionCloseHandler : MonoBehaviour
         }
 
         // REMOVE CHEAT CODES IN FINAL GAME //
+        /*
         else if (Input.GetKeyDown("l") && Input.GetKeyDown("0"))
         {
             StartCoroutine(DebugTransition());
@@ -55,6 +56,7 @@ public class SceneTransitionCloseHandler : MonoBehaviour
         {
             StartCoroutine(Level3());
         }
+        */
     }
 
     IEnumerator Transition()
