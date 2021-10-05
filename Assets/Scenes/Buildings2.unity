@@ -2056,8 +2056,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f43bd92b9194149828ec685448283eee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  BackgroundAudio: {fileID: 0}
-  crossfadeAnimControlClose: {fileID: 0}
+  BackgroundAudio: {fileID: 1803548200}
+  crossfadeAnimControlClose: {fileID: 2010721956}
 --- !u!1 &1618407968
 GameObject:
   m_ObjectHideFlags: 0
